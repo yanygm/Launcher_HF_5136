@@ -15,8 +15,8 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: Launcher.cn.sln
-      Test_Project_Path: Launcher.cn.csproj
+      Solution_Name: Launcher.kr.sln
+      Test_Project_Path: Launcher.kr.csproj
 
     steps:
     - name: Checkout
