@@ -57,5 +57,5 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: Launcher.exe
-        path: D:\a\Launcher_HF_5136\Launcher_HF_5136
+        name: Launcher
+        path: D:\a\Launcher_HF_5136\Launcher_HF_5136\Launcher.exe
