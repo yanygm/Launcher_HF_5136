@@ -545,9 +545,25 @@ namespace KartRider
 						}
 						return;
 					}
-					else if (hash == Adler32Helper.GenerateAdler32_ASCII("PqDisassembleXPartsItem", 0) || hash == Adler32Helper.GenerateAdler32_ASCII("PqExChangePacket", 0) || hash == Adler32Helper.GenerateAdler32_ASCII("PqKartLevelPointClear", 0))
+					else if (hash == Adler32Helper.GenerateAdler32_ASCII("PqExChangePacket", 0) || hash == Adler32Helper.GenerateAdler32_ASCII("PqKartLevelPointClear", 0))
 					{
 						GameSupport.OnDisconnect();
+						return;
+					}
+					else if (hash == Adler32Helper.GenerateAdler32_ASCII("PqDisassembleXPartsItem", 0))
+					{
+						iPacket.ReadByte();
+						iPacket.ReadShort();
+						short Kart = iPacket.ReadShort();
+						iPacket.ReadShort();
+						short SN = iPacket.ReadShort();
+						KartExcData.AddPartsList(Kart, SN, 63, 0, 0, 0);
+						KartExcData.AddPartsList(Kart, SN, 64, 0, 0, 0);
+						KartExcData.AddPartsList(Kart, SN, 65, 0, 0, 0);
+						KartExcData.AddPartsList(Kart, SN, 66, 0, 0, 0);
+						PartSpec.PartSpecData();
+						GameSupport.OnDisconnect();
+						MessageBox.Show("已重置该车辆部件，请重新启动游戏！", "重置车辆部件", MessageBoxButtons.OK, MessageBoxIcon.Information);
 						return;
 					}
 					else if (hash == Adler32Helper.GenerateAdler32_ASCII("PqKartLevelUpProbText", 0))
