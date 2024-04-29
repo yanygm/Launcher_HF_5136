@@ -1,5 +1,4 @@
-﻿
-namespace KartRider
+﻿namespace KartRider
 {
     partial class Options
     {
@@ -61,7 +60,6 @@ namespace KartRider
             this.Load += new System.EventHandler(this.Options_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

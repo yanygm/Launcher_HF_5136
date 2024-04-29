@@ -1,5 +1,4 @@
-﻿
-namespace KartRider
+﻿namespace KartRider
 {
     partial class GetKart
     {
@@ -108,11 +107,9 @@ namespace KartRider
             this.Load += new System.EventHandler(this.FormItem_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
-
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox tx_ItemCode;
         private System.Windows.Forms.TextBox tx_ItemType;
