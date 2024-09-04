@@ -7,21 +7,6 @@ namespace RiderData
 {
 	public static class RiderSchool
 	{
-		public static void PrRiderSchoolPro()
-		{
-			using (OutPacket oPacket = new OutPacket("PrRiderSchoolProPacket"))
-			{
-				oPacket.WriteByte(1);//엠블럼 체크
-				oPacket.WriteByte(35);
-				oPacket.WriteByte(6);
-				oPacket.WriteByte(36);
-				oPacket.WriteInt(0);
-				oPacket.WriteInt(0);
-				oPacket.WriteInt(0);
-				RouterListener.MySession.Client.Send(oPacket);
-			}
-		}
-
 		public static void PrStartRiderSchool()
 		{
 			using (OutPacket oPacket = new OutPacket("PrStartRiderSchool"))
