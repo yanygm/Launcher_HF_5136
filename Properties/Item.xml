@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Item>
 	<!--itemCatId='2' itemName='喷漆'-->
 	<Paint id='1' />
@@ -782,6 +782,31 @@
 	<Uniform id='105' />
 	<Uniform id='106' />
 	<Uniform id='107' />
+	<!--item itemCatId='20' itemName='贴花'-->
+	<Decal id='1' />
+	<Decal id='2' />
+	<Decal id='3' />
+	<Decal id='4' />
+	<Decal id='5' />
+	<Decal id='6' />
+	<Decal id='7' />
+	<Decal id='9' />
+	<Decal id='10' />
+	<Decal id='11' />
+	<Decal id='12' />
+	<Decal id='13' />
+	<Decal id='14' />
+	<Decal id='15' />
+	<Decal id='16' />
+	<Decal id='17' />
+	<Decal id='18' />
+	<Decal id='19' />
+	<Decal id='20' />
+	<Decal id='21' />
+	<Decal id='22' />
+	<Decal id='23' />
+	<Decal id='24' />
+	<Decal id='25' />
 	<!--item itemCatId='26' itemName='炫光'-->
 	<Aura id='30000' />
 	<Aura id='1' />
@@ -2175,6 +2200,7 @@
 	<Goggle id='30001' />
 	<Goggle id='30002' />
 	<Goggle id='30003' />
+	<Goggle id='30004' />
 	<Goggle id='1' />
 	<Goggle id='2' />
 	<Goggle id='3' />
@@ -3443,12 +3469,11 @@
 	<!--item itemCatId='71' itemName='车手栏背景'-->
 	<slotBg id='2' />
 	<slotBg id='3' />
-	<!--item itemCatId='23' itemName='更名卡'-->
-	<RenameRid id='1' />
+	<!--item itemCatId='23' itemName='卡片'-->
+	<Card id='1' />
+	<Card id='3' />
 	<!--item itemCatId='13' itemName='回放观赏券'-->
 	<ReplayTicket id='1' />
-	<!--item itemCatId='23' itemName='金币扩充包'-->
-	<LucciBag id='3' />
 	<!--item itemCatId='61' itemName='计程车仪表'-->
 	<Tachometer id='1' />
 	<!--item itemCatId='68' itemName='车膜'-->
@@ -3470,6 +3495,10 @@
 	<V1EffectData id='16' />
 	<V1EffectData id='17' />
 	<V1EffectData id='18' />
+	<V1EffectData id='19' />
+	<V1EffectData id='20' />
+	<V1EffectData id='21' />
+	<V1EffectData id='22' />
 	<!--item itemCatId='69' itemName='车灯部件'-->
 	<V1BoosterEffectData id='1' />
 	<V1BoosterEffectData id='2' />

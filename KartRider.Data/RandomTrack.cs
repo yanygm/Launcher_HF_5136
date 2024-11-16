@@ -30,6 +30,10 @@ namespace KartRider
 			{
 				RandomTrack.SetRandomTrack = "allRandom";
 			}
+			else if (StartGameData.StartTimeAttack_Track == 1)
+			{
+				RandomTrack.SetRandomTrack = "leagueRandom";
+			}
 			else if (StartGameData.StartTimeAttack_Track == 3)
 			{
 				RandomTrack.SetRandomTrack = "hot1Random";
@@ -57,10 +61,6 @@ namespace KartRider
 			else if (StartGameData.StartTimeAttack_Track == 30)
 			{
 				RandomTrack.SetRandomTrack = "reverseRandom";
-			}
-			else if (StartGameData.StartTimeAttack_Track == 33)
-			{
-				RandomTrack.SetRandomTrack = "newLeagueRandom";
 			}
 			else if (StartGameData.StartTimeAttack_Track == 40)
 			{
@@ -99,28 +99,15 @@ namespace KartRider
 					RandomTrack.GameTrack = xe.GetAttribute("Track");
 				}
 			}
-			else if (RandomTrack.SetRandomTrack == "newLeagueRandom")
+			else if (RandomTrack.SetRandomTrack == "leagueRandom")
 			{
-				if (RandomTrack.GameType == "item")
-				{
-					XmlDocument doc = new XmlDocument();
-					doc.Load(@"Profile\RandomTrack.xml");
-					XmlNodeList lis = doc.GetElementsByTagName("leagueitem");
-					int track = random.Next(0, lis.Count);
-					XmlNode xn = lis[track];
-					XmlElement xe = (XmlElement)xn;
-					RandomTrack.GameTrack = xe.GetAttribute("Track");
-				}
-				else if (RandomTrack.GameType == "speed")
-				{
-					XmlDocument doc = new XmlDocument();
-					doc.Load(@"Profile\RandomTrack.xml");
-					XmlNodeList lis = doc.GetElementsByTagName("leaguespeed");
-					int track = random.Next(0, lis.Count);
-					XmlNode xn = lis[track];
-					XmlElement xe = (XmlElement)xn;
-					RandomTrack.GameTrack = xe.GetAttribute("Track");
-				}
+				XmlDocument doc = new XmlDocument();
+				doc.Load(@"Profile\RandomTrack.xml");
+				XmlNodeList lis = doc.GetElementsByTagName("league");
+				int track = random.Next(0, lis.Count);
+				XmlNode xn = lis[track];
+				XmlElement xe = (XmlElement)xn;
+				RandomTrack.GameTrack = xe.GetAttribute("Track");
 			}
 			else if (RandomTrack.SetRandomTrack == "hot1Random")
 			{

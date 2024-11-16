@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <FlyingPetSpec>
 	<id1 DragFactor='0' ForwardAccelForce='0' DriftEscapeForce='0' CornerDrawFactor='0' NormalBoosterTime='0' ItemBoosterTime='0' TeamBoosterTime='0' StartForwardAccelForceItem='800' StartForwardAccelForceSpeed='800' />
 	<id2 DragFactor='0' ForwardAccelForce='0' DriftEscapeForce='0' CornerDrawFactor='0' NormalBoosterTime='0' ItemBoosterTime='0' TeamBoosterTime='0' StartForwardAccelForceItem='800' StartForwardAccelForceSpeed='800' />

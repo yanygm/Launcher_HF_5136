@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <NewKart>
 	<Kart id='1' sn='1' />
 	<Kart id='2' sn='1' />
@@ -523,6 +523,7 @@
 	<Kart id='828' sn='1' />
 	<Kart id='829' sn='1' />
 	<Kart id='830' sn='1' />
+	<Kart id='831' sn='1' />
 	<Kart id='832' sn='1' />
 	<Kart id='833' sn='1' />
 	<Kart id='834' sn='1' />
@@ -592,6 +593,7 @@
 	<Kart id='909' sn='1' />
 	<Kart id='910' sn='1' />
 	<Kart id='911' sn='1' />
+	<Kart id='913' sn='1' />
 	<Kart id='914' sn='1' />
 	<Kart id='915' sn='1' />
 	<Kart id='916' sn='1' />
@@ -642,6 +644,7 @@
 	<Kart id='974' sn='1' />
 	<Kart id='975' sn='1' />
 	<Kart id='977' sn='1' />
+	<Kart id='978' sn='1' />
 	<Kart id='979' sn='1' />
 	<Kart id='981' sn='1' />
 	<Kart id='982' sn='1' />
@@ -857,6 +860,7 @@
 	<Kart id='1247' sn='1' />
 	<Kart id='1248' sn='1' />
 	<Kart id='1249' sn='1' />
+	<Kart id='1250' sn='1' />
 	<Kart id='1251' sn='1' />
 	<Kart id='1252' sn='1' />
 	<Kart id='1253' sn='1' />
@@ -1006,6 +1010,7 @@
 	<Kart id='1434' sn='1' />
 	<Kart id='1435' sn='1' />
 	<Kart id='1436' sn='1' />
+	<Kart id='1437' sn='1' />
 	<Kart id='1438' sn='1' />
 	<Kart id='1439' sn='1' />
 	<Kart id='1440' sn='1' />
@@ -1013,12 +1018,72 @@
 	<Kart id='1442' sn='1' />
 	<Kart id='1443' sn='1' />
 	<Kart id='1444' sn='1' />
+	<Kart id='1445' sn='1' />
 	<Kart id='1446' sn='1' />
 	<Kart id='1447' sn='1' />
 	<Kart id='1448' sn='1' />
 	<Kart id='1449' sn='1' />
 	<Kart id='1450' sn='1' />
 	<Kart id='1451' sn='1' />
+	<Kart id='1452' sn='1' />
 	<Kart id='1453' sn='1' />
 	<Kart id='1454' sn='1' />
+	<Kart id='1455' sn='1' />
+	<Kart id='1456' sn='1' />
+	<Kart id='1457' sn='1' />
+	<Kart id='1458' sn='1' />
+	<Kart id='1459' sn='1' />
+	<Kart id='1460' sn='1' />
+	<Kart id='1461' sn='1' />
+	<Kart id='1462' sn='1' />
+	<Kart id='1463' sn='1' />
+	<Kart id='1464' sn='1' />
+	<Kart id='1465' sn='1' />
+	<Kart id='1466' sn='1' />
+	<Kart id='1467' sn='1' />
+	<Kart id='1468' sn='1' />
+	<Kart id='1469' sn='1' />
+	<Kart id='1470' sn='1' />
+	<Kart id='1471' sn='1' />
+	<Kart id='1472' sn='1' />
+	<Kart id='1473' sn='1' />
+	<Kart id='1474' sn='1' />
+	<Kart id='1475' sn='1' />
+	<Kart id='1476' sn='1' />
+	<Kart id='1477' sn='1' />
+	<Kart id='1478' sn='1' />
+	<Kart id='1479' sn='1' />
+	<Kart id='1480' sn='1' />
+	<Kart id='1481' sn='1' />
+	<Kart id='1482' sn='1' />
+	<Kart id='1483' sn='1' />
+	<Kart id='1484' sn='1' />
+	<Kart id='1485' sn='1' />
+	<Kart id='1486' sn='1' />
+	<Kart id='1487' sn='1' />
+	<Kart id='1488' sn='1' />
+	<Kart id='1489' sn='1' />
+	<Kart id='1490' sn='1' />
+	<Kart id='1491' sn='1' />
+	<Kart id='1492' sn='1' />
+	<Kart id='1493' sn='1' />
+	<Kart id='1494' sn='1' />
+	<Kart id='1495' sn='1' />
+	<Kart id='1496' sn='1' />
+	<Kart id='1497' sn='1' />
+	<Kart id='1498' sn='1' />
+	<Kart id='1499' sn='1' />
+	<Kart id='1500' sn='1' />
+	<Kart id='1501' sn='1' />
+	<Kart id='1502' sn='1' />
+	<Kart id='1503' sn='1' />
+	<Kart id='1504' sn='1' />
+	<Kart id='1505' sn='1' />
+	<Kart id='1506' sn='1' />
+	<Kart id='1507' sn='1' />
+	<Kart id='1508' sn='1' />
+	<Kart id='1509' sn='1' />
+	<Kart id='1510' sn='1' />
+	<Kart id='1511' sn='1' />
+	<Kart id='1512' sn='1' />
 </NewKart>
