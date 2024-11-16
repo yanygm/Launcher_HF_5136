@@ -61,7 +61,6 @@ namespace KartRider
 			{
 				iPacket.Position = 0;
 				uint hash = iPacket.ReadUInt();
-				Console.WriteLine((PacketName)hash);
 				if (hash == Adler32Helper.GenerateAdler32_ASCII("PqCnAuthenLogin", 0))
 				{
 					using (OutPacket outPacket = new OutPacket("PrCnAuthenLogin"))
