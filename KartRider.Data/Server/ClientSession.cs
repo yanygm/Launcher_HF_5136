@@ -2211,7 +2211,7 @@ namespace KartRider
 							outPacket.WriteShort(0);
 							outPacket.WriteByte(Grade);
 							outPacket.WriteByte(1);
-							outPacket.WriteShort(1180);
+							outPacket.WriteShort(1200);
 							outPacket.WriteShort(0);
 							this.Parent.Client.Send(outPacket);
 						}
