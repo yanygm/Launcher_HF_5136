@@ -173,7 +173,7 @@ namespace KartRider
 						SetRiderItem.Set_Plate = iPacket.ReadShort();
 						SetRiderItem.Set_Goggle = iPacket.ReadShort();
 						SetRiderItem.Set_Balloon = iPacket.ReadShort();
-						iPacket.ReadShort();
+						SetRiderItem.Set_HeadPhone = iPacket.ReadShort();
 						SetRiderItem.Set_HeadBand = iPacket.ReadShort();
 						iPacket.ReadShort();
 						SetRiderItem.Set_HandGearL = iPacket.ReadShort();
@@ -197,10 +197,11 @@ namespace KartRider
 						SetRiderItem.Set_Tachometer = iPacket.ReadShort();
 						SetRiderItem.Set_Dye = iPacket.ReadShort();
 						SetRiderItem.Set_KartSN = iPacket.ReadShort();
-						short Set_KartEffect = iPacket.ReadShort();
-						short Set_KartBoosterEffect = iPacket.ReadShort();
-						//iPacket.ReadByte();
-						//SetRiderItem.Set_slotBg = iPacket.ReadByte();
+						iPacket.ReadByte();
+						short Set_KartCoating = iPacket.ReadShort();
+						short Set_KartTailLamp = iPacket.ReadShort();
+						//SetRiderItem.Set_slotBg = iPacket.ReadShort();
+						//short Set_KartBoosterEffect = iPacket.ReadShort();
 						SetRiderItem.Save_SetRiderItem();
 						TuneSpec.Use_PartsSpec(SetRiderItem.Set_Kart, SetRiderItem.Set_KartSN);
 						TuneSpec.Use_TuneSpec(SetRiderItem.Set_Kart, SetRiderItem.Set_KartSN);
@@ -2511,6 +2512,17 @@ namespace KartRider
 						using (OutPacket outPacket = new OutPacket("RpBoomhillExchangeKoin"))
 						{
 							outPacket.WriteInt(0);
+							outPacket.WriteInt(0);
+							this.Parent.Client.Send(outPacket);
+						}
+						return;
+					}
+					else if (hash == Adler32Helper.GenerateAdler32_ASCII("SpRqUseInitialCardPacket", 0))
+					{
+						SetRider.Card = iPacket.ReadString();
+						SetGameData.Save_Card();
+						using (OutPacket outPacket = new OutPacket("SpRpUseInitialCardPacket"))
+						{
 							outPacket.WriteInt(0);
 							this.Parent.Client.Send(outPacket);
 						}
