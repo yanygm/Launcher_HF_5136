@@ -26,7 +26,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\KartRider_HF_5136\</OutputPath>
+    <OutputPath>.\</OutputPath>
     <DebugSymbols>false</DebugSymbols>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <Optimize>false</Optimize>
