@@ -390,7 +390,7 @@ namespace KartRider
 						}
 						using (OutPacket outPacket = new OutPacket("PcSlaveNotice"))
 						{
-							outPacket.WriteString("The version is completely free. KartInfo: https://kartinfo.me/thread-9369-1-1.html");
+							outPacket.WriteString("The version is completely free. GitHub: https://github.com/yanygm/Launcher_HF_5136");
 							this.Parent.Client.Send(outPacket);
 						}
 						return;
